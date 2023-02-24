@@ -1,0 +1,15 @@
+@events
+sumcount:n:13
+fybtdialer::fybttel,--event=fybtdialer,bttel,8,3,12,true,evbttalking,
+evreservse::fycamera,--event=evreservse -p 20,camera,0,5,13,true,reverse_detect,
+fypoweroff::fypoweroff,--event=fypoweroff,mpu,6,2,12,true,fyfakepowerOff,
+fyupdating::fyupdate,--event=fyupdating,none,10,10,21,true,updating,
+fyprepoweroff::fyprepoweroff,--page=PowerOff,mpu,6,2,12,true,fyprepoweroff,
+evdisclaimer::fydisclaimer,--event=evdisclaimer,mpu,5,1,12,true,evshowdisclaimer,
+fyicall::fyiphone,--event=icall,aux2,9,4,12,true,evicall,
+fybcall::fyiphone,--event=bcall,aux2,9,4,12,true,evbcall,
+fyecalla::fyiphone,--event=ecalla,aux2,10,6,14,true,evecalla,
+fyecallm::fyiphone,--event=ecallm,aux2,10,6,14,true,evecallm,
+fyrcall::fyiphone,--event=rcall,aux2,9,4,12,true,evrcall,
+evPowerLogo::fylogo,--event=evshowPowerLogo,mpu,4,3,12,true,evshowPowerLogo,
+fytransportation::fytransportationtip,--event=transportation,mpu,10,7,15,true,evtransportation,

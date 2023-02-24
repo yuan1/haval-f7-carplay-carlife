@@ -1,0 +1,12 @@
+{
+	"CarLifeLibConfig":
+	{
+		//单位ms
+		"AOAReadTimeOut":500,
+		//最大超时次数，退出读数据线程
+		"AOAReadTimeOutMaxCount":10,
+		//单位ms
+		"AOAWriteTimeOut":500,
+		"Reverse":""
+	}
+}
